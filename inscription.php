@@ -12,7 +12,11 @@
 <?php require 'header.php'; ?>
 <div class="container-fluid p-5">
     <div class="container-fluid">
-        <h1 class="">Rejoins nous vite!</h1>
+        <article class="mx-auto border border-dark p-3 col-5">
+        <h1 class="text-primary font-italic">Rejoins nous vite!</h1>
+            <p class="font-italic font-weight-bold my-5">Une fois ton login et ton mot de passe choisit clique sur le boutton envoyer pour créer ton compte.
+            Une fois que tu auras créé ton compte tu sera automatiquement redirigé vers la page de connexion!</p>
+        </article>
         <form action="connexion.php" method="post" class="mx-auto col-lg-4 col-md-6 col-sm-6 my-5  p-5 rounded">
             <fieldset>
                 <legend class="my-5 text-center">Formulaire d'inscription</legend>

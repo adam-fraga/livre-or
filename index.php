@@ -1,3 +1,7 @@
+<?php
+phpinfo();
+exit();
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,10 +15,10 @@
 <body>
 <?php require 'header.php'; ?>
 <div class="jumbotron">
-    <h1 class="display-3">Bonjour à toi visiteur!</h1>
-    <p class="lead">Si toi aussi tu souhaites laisser un commentaire rejoins nous vite! </p>
+    <h1 class="display-3">Bienvenue à toi visiteur!</h1>
+    <p class="lead">Inscris toi pour échanger sur notre livre d'or! </p>
     <hr class="my-4">
-    <p>Pour t'inscrire rien de plus facile rendez vous sur la page d'inscription!</p>
+    <p>Pour t'inscrire rien de plus simple rendez-vous sur la page d'inscription en cliquant sur le boutton ci-dessous!</p>
     <p class="lead">
         <a class="btn btn-primary btn-lg" href="inscription.php" role="button">Inscription</a>
     </p>

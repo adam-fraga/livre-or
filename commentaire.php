@@ -12,6 +12,10 @@
 <?php require 'header.php'; ?>
 <div class="container-fluid p-5">
     <div class="container-fluid">
+        <article class="mx-auto border border-dark p-3 col-5">
+            <h1 class="text-primary font-italic">Publie ton message!</h1>
+            <p class="font-italic font-weight-bold my-5">Participe à la conversation et interagis avec les autres, n'oublie pas d'indiquer ton identifiant!</p>
+        </article>
         <form action="connexion.php" method="post" class="mx-auto col-lg-4 col-md-6 col-sm-6 my-5  p-5 rounded">
             <fieldset>
                 <legend class="text-center">Envoi ton commentaire</legend>

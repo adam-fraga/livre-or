@@ -12,7 +12,10 @@
 <?php require 'header.php'; ?>
 <div class="container-fluid p-5">
     <div class="container-fluid">
-        <h1 class="">Bienvenue sur PurpleShade!</h1>
+        <article class="mx-auto border border-dark p-3 col-5">
+            <h1 class="text-primary font-italic">Connecte toi et rejoins nous!</h1>
+            <p class="font-italic font-weight-bold my-5">C'est ici que tu vas pouvoir te connecter! entre tes informations d'inscription et participe toi aussi à la conversation!</p>
+        </article>
         <form action="connexion.php" method="post" class="mx-auto col-lg-4 col-md-6 col-sm-6 my-5  p-5 rounded">
             <fieldset>
                 <legend class="text-center">Connexion</legend>
@@ -32,7 +35,7 @@
                            name="password">
                 </div>
                 <div class="form-group">
-                    <button class="btn btn-success " type="submit" name="connexion">Connexion</button>
+                    <button class="btn btn-success" type="submit" name="connexion">Connexion</button>
                 </div>
             </fieldset>
         </form>

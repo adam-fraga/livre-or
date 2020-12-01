@@ -12,7 +12,11 @@
 <?php require 'header.php'; ?>
 <div class="container-fluid p-5">
     <div class="container-fluid">
-        <h1 class="">Gestion de profil utilisateur</h1>
+        <article class="mx-auto border border-dark p-3 col-5">
+            <h1 class="text-primary font-italic">Modifies tes information!</h1>
+            <p class="font-italic font-weight-bold my-5">Tu as envie de changer de mot de passe, ou tu souhaites modifier ton identifiant? pas de problème
+            saisit tes nouvelels information dans le formulaire de moficiation des informations de connexion!</p>
+        </article>
         <form action="connexion.php" method="post" class="mx-auto col-lg-4 col-md-6 col-sm-6 my-5  p-5 rounded">
             <fieldset>
                 <legend class="my-5 text-center">Modifier mes informations de connexion</legend>
