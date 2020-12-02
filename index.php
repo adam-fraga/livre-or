@@ -1,6 +1,5 @@
 <?php
-phpinfo();
-exit();
+
 ?>
 <!doctype html>
 <html lang="en">
