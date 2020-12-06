@@ -22,6 +22,14 @@
         <a class="btn btn-primary btn-lg" href="inscription.php" role="button">Inscription</a>
     </p>
 </div>
+<div class="jumbotron">
+    <h2 class="display-3">Consulte le livre d'or!</h2>
+    <hr class="my-4">
+    <p>Si tu souhaites acceder directement aux livre d'or poru te faire une idée avant de nosu rejoindre sur le site tu peux cliquer sur le lien ci dessous!</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg " href="livre-or.php" role="button">Livre d'or</a>
+    </p>
+</div>
 <?php require 'footer.php'; ?>
 </body>
 </html>

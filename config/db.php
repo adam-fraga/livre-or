@@ -1,8 +1,18 @@
 <!--CONNEXION PDO-->
 <?php
-$DB_DSN = 'mysql:host=localhost;dbname=livreor';
-$DB_user = 'root';
-$DB_password = '';
+$dsn = 'mysql:host=localhost;dbname=livreor';
+$username = 'root';
+$password = '';
 
-$PDO = new PDO($DB_DSN,$DB_user,$DB_password);
+//Tentative de connexion
+try{
+    $connexion = new PDO($dsn, $username, $password);
+    //On définit le mode d'erreur de PDO sur Exception
+    $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
+    /*On capture les exceptions si une exception est lancée et on affiche
+     *les informations relatives à celle-ci*/
+catch(PDOException $e){
+    echo "Erreur : " . $e->getMessage();
+}
 ?>
